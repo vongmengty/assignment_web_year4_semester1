@@ -1,7 +1,9 @@
 <meta charset="utf-8">
 <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>E-learning</title>
+<title>Super Cool Layouts</title>
+<!-- <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style media="screen">
       html,body{
           background-color: #F9FAFA;
@@ -19,12 +21,34 @@
         order: 1;
       }
       .submenu{
-        background-color: #EDEFF0;
+        background-color: #ffffff;
+        border-right: 6px solid #EDEFF0;
         display: flex;
         flex: 1;
         order: 2;
-        margin-right: 20px;
       }
+
+      .vertical-menu {
+            width: 100%;
+        }
+
+        .vertical-menu a {
+            background-color: #eee;
+            color: black;
+            display:  flex;
+            padding: 12px;
+            text-decoration: none;
+        }
+
+        .vertical-menu a:hover {
+            background-color: #ccc;
+        }
+
+        .vertical-menu a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
       .container{
           width: 90%;
           padding-bottom: 20px;
@@ -36,7 +60,6 @@
       .slide{
           width: 100%;
           display: flex;
-          flex: 1 auto;
           order: 1;
           background-color: rgb(143, 133, 130);
       }
@@ -55,7 +78,7 @@
           /*width: calc(100% / 5 );*/
           height: 250px;
           background-color: #EDEFF0;
-          display: flex;
+          display: block;
           margin-right: 20px;
           margin-top: 20px;
       }
@@ -68,8 +91,7 @@
         order: 4;
       }
       .copyright{
-        text-align: center;
-        padding-top: 25px;
+        margin: auto;
         display: flex;
       }
 </style>

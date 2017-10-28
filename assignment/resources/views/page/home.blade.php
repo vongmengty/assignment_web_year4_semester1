@@ -9,48 +9,77 @@
         @include('layout.header')
     </header>
     <div class="submenu">
-          submenu
+      <div class="vertical-menu">
+          <a href="#" class="active">Home</a>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <a href="#">Link 4</a>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <a href="#">Link 4</a>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <a href="#">Link 4</a>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <a href="#">Link 4</a>
+      </div>
     </div>
     <div class="container">
         <div class="slide">
-              show slide
+              <img src="{{ asset('img/html.jpg') }}" height="300" width="100%">
         </div>
         <div class="main">
-            <div class="box">
+            <div class="item">
+              <img src="{{ asset('img/html.jpg') }}" height="220px" width="100%">
+              HTML
             </div>
-            <div class="box">
+            <div class="item">
+              <img src="{{ asset('img/html.jpg') }}" height="220px" width="100%">
+              HTML
             </div>
-            <div class="box">
+            <div class="item">
+              <img src="{{ asset('img/html.jpg') }}" height="220px" width="100%">
+              HTML
             </div>
-            <div class="box">
+            <div class="item">
+              <img src="{{ asset('img/html.jpg') }}" height="220px" width="100%">
+              HTML
             </div>
-            <div class="box">
+            <div class="item">
+              <img src="{{ asset('img/html.jpg') }}" height="220px" width="100%">
+              HTML
             </div>
-            <div class="box">
+            <div class="item">
+              <img src="{{ asset('img/html.jpg') }}" height="220px" width="100%">
+              HTML
             </div>
-            <div class="box">
+            <div class="item">
+              <img src="{{ asset('img/html.jpg') }}" height="220px" width="100%">
+              HTML
             </div>
-            <div class="box">
+            <div class="item">
+              <img src="{{ asset('img/html.jpg') }}" height="220px" width="100%">
+              HTML
+            </div><div class="item">
+              <img src="{{ asset('img/html.jpg') }}" height="220px" width="100%">
+              HTML
             </div>
-            <div class="box">
+            <div class="item">
+              <img src="{{ asset('img/html.jpg') }}" height="220px" width="100%">
+              HTML
             </div>
-            <div class="box">
+            <div class="item">
+              <img src="{{ asset('img/html.jpg') }}" height="220px" width="100%">
+              HTML
             </div>
-            <div class="box">
-            </div>
-            <div class="box">
-            </div>
-            <div class="box">
-            </div>
-            <div class="box">
-            </div>
-            <div class="box">
-            </div>
-            <div class="box">
-            </div>
-            <div class="box">
-            </div>
-            <div class="box">
+            <div class="item">
+              <img src="{{ asset('img/html.jpg') }}" height="220px" width="100%">
+              HTML
             </div>
         </div>
     </div>
