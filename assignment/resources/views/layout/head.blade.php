@@ -1,8 +1,7 @@
 <meta charset="utf-8">
 <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Super Cool Layouts</title>
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/3.0.3/css/bootstrap-combined.min.css">
+<title>E-learning</title>
 <style media="screen">
       html,body{
           background-color: #F9FAFA;
@@ -46,13 +45,14 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         flex: 1 auto;
         order: 2;
         background-color: #F9FAFA;
       }
       .box{
-          width: 220px;
+          width: 200px;
+          /*width: calc(100% / 5 );*/
           height: 250px;
           background-color: #EDEFF0;
           display: flex;
